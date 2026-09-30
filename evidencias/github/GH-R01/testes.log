@@ -1,0 +1,11 @@
+test_arredondamento (test_app.TestTotal.test_arredondamento) ... ok
+test_multiplicacao (test_app.TestTotal.test_multiplicacao) ... ok
+test_preco_negativo (test_app.TestTotal.test_preco_negativo) ... ok
+test_quantidade_fracionaria (test_app.TestTotal.test_quantidade_fracionaria) ... ok
+test_quantidade_zero (test_app.TestTotal.test_quantidade_zero) ... ok
+test_zero (test_app.TestTotal.test_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK

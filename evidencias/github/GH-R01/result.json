@@ -1,0 +1,48 @@
+{
+  "id": "run-36754815479-1",
+  "commit": "a80b477602a277e162e3be36f0a5398d43d37d05",
+  "study_date": "2026-09-30",
+  "executed_at_utc": "2026-09-30T17:55:06.948686+00:00",
+  "github_run_id": "36754815479",
+  "github_run_attempt": "1",
+  "github_event": "workflow_dispatch",
+  "run_url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754815479",
+  "source_sha256": "d0d44f614f0db691080ceaa9b43278adb1439fbbef6db954b68643b043c36089",
+  "environment": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "python": "3.11.16",
+  "steps": [
+    {
+      "name": "preparacao",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.6042
+    },
+    {
+      "name": "testes",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.0831
+    },
+    {
+      "name": "build",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.0391
+    },
+    {
+      "name": "deploy_simulado",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.0395
+    },
+    {
+      "name": "smoke",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.0565
+    }
+  ],
+  "status": "passed",
+  "deployment_exists": true,
+  "artifact_sha256": "678c87cff32f2ba792910809fca7ed5c55622d443dc2af98e3679b221dc97075"
+}

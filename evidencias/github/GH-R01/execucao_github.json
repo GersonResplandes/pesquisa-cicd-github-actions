@@ -1,0 +1,12 @@
+{
+  "conclusion": "success",
+  "createdAt": "2026-09-30T17:54:59Z",
+  "databaseId": 36754815479,
+  "event": "workflow_dispatch",
+  "headBranch": "cenario/correcao",
+  "headSha": "a80b477602a277e162e3be36f0a5398d43d37d05",
+  "status": "completed",
+  "url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754815479",
+  "label": "GH-R01",
+  "testes_aprovados": 6
+}

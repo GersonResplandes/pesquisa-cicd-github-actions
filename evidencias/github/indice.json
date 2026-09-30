@@ -1,0 +1,179 @@
+{
+  "repository_url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions",
+  "runs": [
+    {
+      "conclusion": "success",
+      "createdAt": "2026-09-30T17:54:36Z",
+      "databaseId": 36754769925,
+      "event": "push",
+      "headBranch": "main",
+      "headSha": "8bd778a42505dfd6982c880d7181b900a441bb9d",
+      "status": "completed",
+      "url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754769925",
+      "label": "GH-A01",
+      "testes_aprovados": 6,
+      "result": {
+        "id": "run-36754769925-1",
+        "commit": "8bd778a42505dfd6982c880d7181b900a441bb9d",
+        "study_date": "2026-09-30",
+        "executed_at_utc": "2026-09-30T17:54:41.054473+00:00",
+        "github_run_id": "36754769925",
+        "github_run_attempt": "1",
+        "github_event": "push",
+        "run_url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754769925",
+        "source_sha256": "d0d44f614f0db691080ceaa9b43278adb1439fbbef6db954b68643b043c36089",
+        "environment": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "python": "3.11.16",
+        "steps": [
+          {
+            "name": "preparacao",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.5248
+          },
+          {
+            "name": "testes",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.0634
+          },
+          {
+            "name": "build",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.0258
+          },
+          {
+            "name": "deploy_simulado",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.0255
+          },
+          {
+            "name": "smoke",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.0364
+          }
+        ],
+        "status": "passed",
+        "deployment_exists": true,
+        "artifact_sha256": "678c87cff32f2ba792910809fca7ed5c55622d443dc2af98e3679b221dc97075"
+      }
+    },
+    {
+      "conclusion": "failure",
+      "createdAt": "2026-09-30T17:54:53Z",
+      "databaseId": 36754802008,
+      "event": "workflow_dispatch",
+      "headBranch": "cenario/falha-controlada",
+      "headSha": "e7fcb09f0d3e2d0917e5791106f01c2c564eb998",
+      "status": "completed",
+      "url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754802008",
+      "label": "GH-F01",
+      "testes_aprovados": 3,
+      "result": {
+        "id": "run-36754802008-1",
+        "commit": "e7fcb09f0d3e2d0917e5791106f01c2c564eb998",
+        "study_date": "2026-09-30",
+        "executed_at_utc": "2026-09-30T17:55:00.440777+00:00",
+        "github_run_id": "36754802008",
+        "github_run_attempt": "1",
+        "github_event": "workflow_dispatch",
+        "run_url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754802008",
+        "source_sha256": "363d3247ff399a780ecca03ab8b8e244c04eba0755719958e104902ff21ba8d5",
+        "environment": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "python": "3.11.16",
+        "steps": [
+          {
+            "name": "preparacao",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.6621
+          },
+          {
+            "name": "testes",
+            "status": "failed",
+            "exit_code": 1,
+            "seconds": 0.2426
+          },
+          {
+            "name": "build",
+            "status": "skipped"
+          },
+          {
+            "name": "deploy_simulado",
+            "status": "skipped"
+          },
+          {
+            "name": "smoke",
+            "status": "skipped"
+          }
+        ],
+        "status": "failed",
+        "deployment_exists": false
+      }
+    },
+    {
+      "conclusion": "success",
+      "createdAt": "2026-09-30T17:54:59Z",
+      "databaseId": 36754815479,
+      "event": "workflow_dispatch",
+      "headBranch": "cenario/correcao",
+      "headSha": "a80b477602a277e162e3be36f0a5398d43d37d05",
+      "status": "completed",
+      "url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754815479",
+      "label": "GH-R01",
+      "testes_aprovados": 6,
+      "result": {
+        "id": "run-36754815479-1",
+        "commit": "a80b477602a277e162e3be36f0a5398d43d37d05",
+        "study_date": "2026-09-30",
+        "executed_at_utc": "2026-09-30T17:55:06.948686+00:00",
+        "github_run_id": "36754815479",
+        "github_run_attempt": "1",
+        "github_event": "workflow_dispatch",
+        "run_url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754815479",
+        "source_sha256": "d0d44f614f0db691080ceaa9b43278adb1439fbbef6db954b68643b043c36089",
+        "environment": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "python": "3.11.16",
+        "steps": [
+          {
+            "name": "preparacao",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.6042
+          },
+          {
+            "name": "testes",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.0831
+          },
+          {
+            "name": "build",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.0391
+          },
+          {
+            "name": "deploy_simulado",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.0395
+          },
+          {
+            "name": "smoke",
+            "status": "passed",
+            "exit_code": 0,
+            "seconds": 0.0565
+          }
+        ],
+        "status": "passed",
+        "deployment_exists": true,
+        "artifact_sha256": "678c87cff32f2ba792910809fca7ed5c55622d443dc2af98e3679b221dc97075"
+      }
+    }
+  ],
+  "remote_artifact_sha256": "678c87cff32f2ba792910809fca7ed5c55622d443dc2af98e3679b221dc97075"
+}

@@ -1,0 +1,192 @@
+validar	Set up job	ï»¿2026-09-30T17:54:58.1827651Z Current runner version: '2.337.0'
+validar	Set up job	2026-09-30T17:54:58.1854675Z ##[group]Runner Image Provisioner
+validar	Set up job	2026-09-30T17:54:58.1855575Z Hosted Compute Agent
+validar	Set up job	2026-09-30T17:54:58.1856215Z Version: 20260901.588
+validar	Set up job	2026-09-30T17:54:58.1856848Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+validar	Set up job	2026-09-30T17:54:58.1857601Z Build Date: 2026-09-01T19:56:44Z
+validar	Set up job	2026-09-30T17:54:58.1858342Z Worker ID: {93ca40a3-796c-4749-9099-dc7c32e4f63c}
+validar	Set up job	2026-09-30T17:54:58.1859072Z Azure Region: westus
+validar	Set up job	2026-09-30T17:54:58.1859672Z ##[endgroup]
+validar	Set up job	2026-09-30T17:54:58.1861522Z ##[group]Operating System
+validar	Set up job	2026-09-30T17:54:58.1862189Z Ubuntu
+validar	Set up job	2026-09-30T17:54:58.1862864Z 24.04.5
+validar	Set up job	2026-09-30T17:54:58.1863384Z LTS
+validar	Set up job	2026-09-30T17:54:58.1863879Z ##[endgroup]
+validar	Set up job	2026-09-30T17:54:58.1864559Z ##[group]Runner Image
+validar	Set up job	2026-09-30T17:54:58.1865153Z Image: ubuntu-24.04
+validar	Set up job	2026-09-30T17:54:58.1865794Z Version: 20260927.320.1
+validar	Set up job	2026-09-30T17:54:58.1866854Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+validar	Set up job	2026-09-30T17:54:58.1868686Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+validar	Set up job	2026-09-30T17:54:58.1869655Z ##[endgroup]
+validar	Set up job	2026-09-30T17:54:58.1870798Z ##[group]GITHUB_TOKEN Permissions
+validar	Set up job	2026-09-30T17:54:58.1873158Z Contents: read
+validar	Set up job	2026-09-30T17:54:58.1873912Z Metadata: read
+validar	Set up job	2026-09-30T17:54:58.1874469Z ##[endgroup]
+validar	Set up job	2026-09-30T17:54:58.1876587Z Secret source: Actions
+validar	Set up job	2026-09-30T17:54:58.1878014Z Cache mode: write
+validar	Set up job	2026-09-30T17:54:58.1878828Z Prepare workflow directory
+validar	Set up job	2026-09-30T17:54:58.2218922Z Prepare all required actions
+validar	Set up job	2026-09-30T17:54:58.2266833Z Getting action download info
+validar	Set up job	2026-09-30T17:54:58.6220103Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+validar	Set up job	2026-09-30T17:54:58.7479924Z Download action repository 'actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+validar	Set up job	2026-09-30T17:54:58.8253528Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+validar	Set up job	2026-09-30T17:54:59.0376811Z Complete job name: validar
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	ï»¿2026-09-30T17:54:59.1151968Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1153117Z with:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1153560Z   persist-credentials: false
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1154209Z   repository: GersonResplandes/pesquisa-cicd-github-actions
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1158051Z   token: ***
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1158482Z   ssh-strict: true
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1158906Z   ssh-user: git
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1159322Z   clean: true
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1159771Z   sparse-checkout-cone-mode: true
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1160294Z   fetch-depth: 1
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1160716Z   fetch-tags: false
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1161544Z   show-progress: true
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1162078Z   lfs: false
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1162489Z   submodules: false
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1162979Z   set-safe-directory: true
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1163486Z   allow-unsafe-pr-checkout: false
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.1164329Z ##[endgroup]
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2198004Z Syncing repository: GersonResplandes/pesquisa-cicd-github-actions
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2200032Z ##[group]Getting Git version info
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2201473Z Working directory is '/home/runner/work/pesquisa-cicd-github-actions/pesquisa-cicd-github-actions'
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2202792Z [command]/usr/bin/git version
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2303848Z git version 2.55.0
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2328914Z ##[endgroup]
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2346344Z Temporarily overriding HOME='/home/runner/work/_temp/1713847c-2668-468c-bcbe-9d338626a283' before making global git config changes
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2348799Z Adding repository directory to the temporary git global config as a safe directory
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2354125Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pesquisa-cicd-github-actions/pesquisa-cicd-github-actions
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2416305Z Deleting the contents of '/home/runner/work/pesquisa-cicd-github-actions/pesquisa-cicd-github-actions'
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2420679Z ##[group]Initializing the repository
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2427093Z [command]/usr/bin/git init /home/runner/work/pesquisa-cicd-github-actions/pesquisa-cicd-github-actions
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2547797Z hint: Using 'master' as the name for the initial branch. This default branch name
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2549468Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2550439Z hint: to use in all of your new repositories, which will suppress this warning,
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2551328Z hint: call:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2552044Z hint:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2553001Z hint: 	git config --global init.defaultBranch <name>
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2554146Z hint:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2555226Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2556924Z hint: 'development'. The just-created branch can be renamed via this command:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2558274Z hint:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2559004Z hint: 	git branch -m <name>
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2559864Z hint:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2561190Z hint: Disable this message with "git config set advice.defaultBranchName false"
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2563543Z Initialized empty Git repository in /home/runner/work/pesquisa-cicd-github-actions/pesquisa-cicd-github-actions/.git/
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2582845Z [command]/usr/bin/git remote add origin https://github.com/GersonResplandes/pesquisa-cicd-github-actions
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2636774Z ##[endgroup]
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2638183Z ##[group]Disabling automatic garbage collection
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2642569Z [command]/usr/bin/git config --local gc.auto 0
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2685399Z ##[endgroup]
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2686706Z ##[group]Setting up auth
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2696901Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.2750812Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.3174544Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.3222042Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.3449747Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.3485911Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.3710094Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.3750820Z ##[endgroup]
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.3760346Z ##[group]Fetching the repository
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:54:59.3762904Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e7fcb09f0d3e2d0917e5791106f01c2c564eb998:refs/remotes/origin/cenario/falha-controlada
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0179731Z From https://github.com/GersonResplandes/pesquisa-cicd-github-actions
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0183094Z  * [new ref]         e7fcb09f0d3e2d0917e5791106f01c2c564eb998 -> origin/cenario/falha-controlada
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0188129Z ##[endgroup]
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0190116Z ##[group]Determining the checkout info
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0192497Z ##[endgroup]
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0194885Z [command]/usr/bin/git sparse-checkout disable
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0252117Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0288559Z ##[group]Checking out the ref
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0292186Z [command]/usr/bin/git checkout --progress --force -B cenario/falha-controlada refs/remotes/origin/cenario/falha-controlada
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0381937Z Switched to a new branch 'cenario/falha-controlada'
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0386664Z branch 'cenario/falha-controlada' set up to track 'origin/cenario/falha-controlada'.
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0392092Z ##[endgroup]
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0436898Z [command]/usr/bin/git log -1 --format=%H
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0464212Z e7fcb09f0d3e2d0917e5791106f01c2c564eb998
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0473906Z ##[group]Removing auth
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0477346Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0510130Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0737585Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0766631Z http.https://github.com/.extraheader
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0774443Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.0809786Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.1029913Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.1062608Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+validar	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:00.1282258Z ##[endgroup]
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	ï»¿2026-09-30T17:55:00.1609620Z ##[group]Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.1611214Z with:
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.1611741Z   python-version: 3.11
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.1612364Z   check-latest: false
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.1621454Z   token: ***
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.1622021Z   update-environment: true
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.1622746Z   allow-prereleases: false
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.1623474Z   freethreaded: false
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.1624050Z ##[endgroup]
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.2978280Z ##[group]Installed versions
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.3078223Z (node:2385) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.3081482Z (Use `node --trace-deprecation ...` to show where the warning was created)
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.3095020Z Successfully set up CPython (3.11.16)
+validar	Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065	2026-09-30T17:55:00.3097437Z ##[endgroup]
+validar	Testar, empacotar e simular entrega	ï»¿2026-09-30T17:55:00.3270509Z ##[group]Run python pipeline.py run-36754802008-1
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3271949Z [36;1mpython pipeline.py run-36754802008-1[0m
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3566876Z shell: /usr/bin/bash -e {0}
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3567769Z env:
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3568523Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3570017Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3571714Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3573028Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3574352Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3575721Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:00.3576820Z ##[endgroup]
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:01.3479448Z {"id": "run-36754802008-1", "commit": "e7fcb09f0d3e2d0917e5791106f01c2c564eb998", "study_date": "2026-09-30", "executed_at_utc": "2026-09-30T17:55:00.440777+00:00", "github_run_id": "36754802008", "github_run_attempt": "1", "github_event": "workflow_dispatch", "run_url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754802008", "source_sha256": "363d3247ff399a780ecca03ab8b8e244c04eba0755719958e104902ff21ba8d5", "environment": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39", "python": "3.11.16", "steps": [{"name": "preparacao", "status": "passed", "exit_code": 0, "seconds": 0.6621}, {"name": "testes", "status": "failed", "exit_code": 1, "seconds": 0.2426}, {"name": "build", "status": "skipped"}, {"name": "deploy_simulado", "status": "skipped"}, {"name": "smoke", "status": "skipped"}], "status": "failed", "deployment_exists": false}
+validar	Testar, empacotar e simular entrega	2026-09-30T17:55:01.3544179Z ##[error]Process completed with exit code 1.
+validar	Preservar evidencias	ï»¿2026-09-30T17:55:01.3679073Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+validar	Preservar evidencias	2026-09-30T17:55:01.3680262Z with:
+validar	Preservar evidencias	2026-09-30T17:55:01.3681422Z   name: evidencias-36754802008-1
+validar	Preservar evidencias	2026-09-30T17:55:01.3682398Z   path: evidence/
+validar	Preservar evidencias	dist/
+validar	Preservar evidencias	
+validar	Preservar evidencias	2026-09-30T17:55:01.3683324Z   retention-days: 14
+validar	Preservar evidencias	2026-09-30T17:55:01.3684223Z   if-no-files-found: warn
+validar	Preservar evidencias	2026-09-30T17:55:01.3685157Z   compression-level: 6
+validar	Preservar evidencias	2026-09-30T17:55:01.3686045Z   overwrite: false
+validar	Preservar evidencias	2026-09-30T17:55:01.3686950Z   include-hidden-files: false
+validar	Preservar evidencias	2026-09-30T17:55:01.3687868Z env:
+validar	Preservar evidencias	2026-09-30T17:55:01.3688829Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+validar	Preservar evidencias	2026-09-30T17:55:01.3690052Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+validar	Preservar evidencias	2026-09-30T17:55:01.3691526Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+validar	Preservar evidencias	2026-09-30T17:55:01.3692722Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+validar	Preservar evidencias	2026-09-30T17:55:01.3693915Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+validar	Preservar evidencias	2026-09-30T17:55:01.3695084Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+validar	Preservar evidencias	2026-09-30T17:55:01.3696180Z ##[endgroup]
+validar	Preservar evidencias	2026-09-30T17:55:01.5360384Z (node:2424) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+validar	Preservar evidencias	2026-09-30T17:55:01.5363531Z (Use `node --trace-deprecation ...` to show where the warning was created)
+validar	Preservar evidencias	2026-09-30T17:55:01.5468873Z Multiple search paths detected. Calculating the least common ancestor of all paths
+validar	Preservar evidencias	2026-09-30T17:55:01.5473989Z The least common ancestor is /home/runner/work/pesquisa-cicd-github-actions/pesquisa-cicd-github-actions. This will be the root directory of the artifact
+validar	Preservar evidencias	2026-09-30T17:55:01.5476590Z With the provided path, there will be 3 files uploaded
+validar	Preservar evidencias	2026-09-30T17:55:01.5479181Z Artifact name is valid!
+validar	Preservar evidencias	2026-09-30T17:55:01.5480725Z Root directory input is valid!
+validar	Preservar evidencias	2026-09-30T17:55:01.9698912Z Beginning upload of artifact content to blob storage
+validar	Preservar evidencias	2026-09-30T17:55:01.9953543Z (node:2424) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+validar	Preservar evidencias	2026-09-30T17:55:02.2603049Z Uploaded bytes 1465
+validar	Preservar evidencias	2026-09-30T17:55:02.3371417Z Finished uploading artifact content to blob storage!
+validar	Preservar evidencias	2026-09-30T17:55:02.3372927Z SHA256 digest of uploaded artifact zip is e644e2e8a42d0b2f7704b1e2621fba7a9dd996cf3cddf2d10d33381e396e1faf
+validar	Preservar evidencias	2026-09-30T17:55:02.3374552Z Finalizing artifact upload
+validar	Preservar evidencias	2026-09-30T17:55:02.7812494Z Artifact evidencias-36754802008-1.zip successfully finalized. Artifact ID 11115608604
+validar	Preservar evidencias	2026-09-30T17:55:02.7832849Z Artifact evidencias-36754802008-1 has been successfully uploaded! Final size is 1465 bytes. Artifact ID is 11115608604
+validar	Preservar evidencias	2026-09-30T17:55:02.7835165Z Artifact download URL: https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754802008/artifacts/11115608604
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	ï»¿2026-09-30T17:55:02.7999687Z Post job cleanup.
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.8831403Z [command]/usr/bin/git version
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.8874823Z git version 2.55.0
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.8913524Z Temporarily overriding HOME='/home/runner/work/_temp/2ca3a0c2-ee27-4467-9253-4695b04a197c' before making global git config changes
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.8915121Z Adding repository directory to the temporary git global config as a safe directory
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.8919687Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pesquisa-cicd-github-actions/pesquisa-cicd-github-actions
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.8959406Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.8996429Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.9259287Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.9295654Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.9563792Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+validar	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-30T17:55:02.9602952Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+validar	Complete job	ï»¿2026-09-30T17:55:03.0003627Z Cleaning up orphan processes
+validar	Complete job	2026-09-30T17:55:03.0288983Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,12 @@
+{
+  "conclusion": "failure",
+  "createdAt": "2026-09-30T17:54:53Z",
+  "databaseId": 36754802008,
+  "event": "workflow_dispatch",
+  "headBranch": "cenario/falha-controlada",
+  "headSha": "e7fcb09f0d3e2d0917e5791106f01c2c564eb998",
+  "status": "completed",
+  "url": "https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/runs/36754802008",
+  "label": "GH-F01",
+  "testes_aprovados": 3
+}
