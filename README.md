@@ -2,12 +2,16 @@
 
 Relatório parcial de pesquisa em Engenharia de Software: automação de pipelines e escalabilidade operacional. Curso de Análise e Desenvolvimento de Sistemas, UNIBALSAS, 2026.2.
 
+## Relatório
+
+[Baixar o relatório parcial em PDF](relatorio/Pesquisa_Parcial_CICD_Gerson_UNIBALSAS.pdf). O documento contém os resultados locais e remotos, e o Apêndice E reúne os links para conferir as provas. O arquivo SHA256.txt permite verificar a integridade do PDF.
+
 ## Provas verificáveis
 
 - [Código e histórico de commits](https://github.com/GersonResplandes/pesquisa-cicd-github-actions/commits/main/).
 - [Execuções reais do GitHub Actions](https://github.com/GersonResplandes/pesquisa-cicd-github-actions/actions/workflows/ci.yml).
 - [Evidências do ensaio local](https://github.com/GersonResplandes/pesquisa-cicd-github-actions/tree/main/evidencias/locais).
-- Os resultados hospedados serão preservados em `evidencias/github/`, além dos artefatos das execuções.
+- [Resultados e logs remotos preservados](evidencias/github/), além dos artefatos das execuções.
 - [Índice de provas e instruções de conferência](evidencias/PROVAS.md).
 
 Os registros locais correspondem ao ensaio exploratório realizado em Windows. As execuções hospedadas no GitHub Actions possuem IDs, URLs e commits próprios. Consulte o [índice de provas](evidencias/PROVAS.md) para conferir os resultados e sua origem.
