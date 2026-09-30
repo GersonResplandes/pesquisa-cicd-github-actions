@@ -6,4 +6,4 @@ def total(preco, quantidade):
     valor = Decimal(str(preco))
     if not valor.is_finite() or valor < 0:
         raise ValueError("preco deve ser finito e nao negativo")
-    return (valor + quantidade).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
+    return (valor * quantidade).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
