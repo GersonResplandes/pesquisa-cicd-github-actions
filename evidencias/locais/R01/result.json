@@ -1,0 +1,42 @@
+{
+  "id": "R01",
+  "commit": "f404c8cd35042ae132ac8e6115119543462dda2a",
+  "date": "2026-09-30",
+  "environment": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "steps": [
+    {
+      "name": "preparacao",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.4769
+    },
+    {
+      "name": "testes",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.151
+    },
+    {
+      "name": "build",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.2186
+    },
+    {
+      "name": "deploy_simulado",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.1522
+    },
+    {
+      "name": "smoke",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.2039
+    }
+  ],
+  "status": "passed",
+  "deployment_exists": true,
+  "artifact_sha256": "ad950644e42927a8ceeda4087f4f415475f5718662713313a430a51d3e4cf39e"
+}

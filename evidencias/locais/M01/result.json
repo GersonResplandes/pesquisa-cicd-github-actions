@@ -1,0 +1,28 @@
+{
+  "id": "M01",
+  "commit": "f404c8cd35042ae132ac8e6115119543462dda2a",
+  "mode": "separate_commands_executed_by_Codex",
+  "steps": [
+    {
+      "name": "preparacao",
+      "exit_code": 0
+    },
+    {
+      "name": "testes",
+      "exit_code": 0
+    },
+    {
+      "name": "build",
+      "exit_code": 0
+    },
+    {
+      "name": "deploy_simulado",
+      "exit_code": 0
+    },
+    {
+      "name": "smoke",
+      "exit_code": 0
+    }
+  ],
+  "artifact_sha256": "ad950644e42927a8ceeda4087f4f415475f5718662713313a430a51d3e4cf39e"
+}

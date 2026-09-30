@@ -1,0 +1,35 @@
+{
+  "id": "F01",
+  "commit": "4a920385aa5477665aaa81b0272c7dec60fb6a40",
+  "date": "2026-09-30",
+  "environment": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "steps": [
+    {
+      "name": "preparacao",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.6479
+    },
+    {
+      "name": "testes",
+      "status": "failed",
+      "exit_code": 1,
+      "seconds": 0.1631
+    },
+    {
+      "name": "build",
+      "status": "skipped"
+    },
+    {
+      "name": "deploy_simulado",
+      "status": "skipped"
+    },
+    {
+      "name": "smoke",
+      "status": "skipped"
+    }
+  ],
+  "status": "failed",
+  "deployment_exists": false
+}

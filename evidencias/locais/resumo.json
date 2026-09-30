@@ -1,0 +1,234 @@
+{
+  "baseline_commit": "38abe9757919617b399da11f22e88357bdf6b932",
+  "recovery_commit": "f404c8cd35042ae132ac8e6115119543462dda2a",
+  "automatic_runs": [
+    {
+      "id": "A01",
+      "commit": "38abe9757919617b399da11f22e88357bdf6b932",
+      "date": "2026-09-30",
+      "environment": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "steps": [
+        {
+          "name": "preparacao",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 2.2879
+        },
+        {
+          "name": "testes",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.3284
+        },
+        {
+          "name": "build",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.2669
+        },
+        {
+          "name": "deploy_simulado",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.1513
+        },
+        {
+          "name": "smoke",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.2243
+        }
+      ],
+      "status": "passed",
+      "deployment_exists": true,
+      "artifact_sha256": "ad950644e42927a8ceeda4087f4f415475f5718662713313a430a51d3e4cf39e"
+    },
+    {
+      "id": "A02",
+      "commit": "38abe9757919617b399da11f22e88357bdf6b932",
+      "date": "2026-09-30",
+      "environment": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "steps": [
+        {
+          "name": "preparacao",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 1.4201
+        },
+        {
+          "name": "testes",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.1536
+        },
+        {
+          "name": "build",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.2375
+        },
+        {
+          "name": "deploy_simulado",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.1425
+        },
+        {
+          "name": "smoke",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.222
+        }
+      ],
+      "status": "passed",
+      "deployment_exists": true,
+      "artifact_sha256": "ad950644e42927a8ceeda4087f4f415475f5718662713313a430a51d3e4cf39e"
+    },
+    {
+      "id": "A03",
+      "commit": "38abe9757919617b399da11f22e88357bdf6b932",
+      "date": "2026-09-30",
+      "environment": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "steps": [
+        {
+          "name": "preparacao",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 1.6317
+        },
+        {
+          "name": "testes",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.2165
+        },
+        {
+          "name": "build",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.2433
+        },
+        {
+          "name": "deploy_simulado",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.1663
+        },
+        {
+          "name": "smoke",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.2462
+        }
+      ],
+      "status": "passed",
+      "deployment_exists": true,
+      "artifact_sha256": "ad950644e42927a8ceeda4087f4f415475f5718662713313a430a51d3e4cf39e"
+    },
+    {
+      "id": "F01",
+      "commit": "4a920385aa5477665aaa81b0272c7dec60fb6a40",
+      "date": "2026-09-30",
+      "environment": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "steps": [
+        {
+          "name": "preparacao",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 1.6479
+        },
+        {
+          "name": "testes",
+          "status": "failed",
+          "exit_code": 1,
+          "seconds": 0.1631
+        },
+        {
+          "name": "build",
+          "status": "skipped"
+        },
+        {
+          "name": "deploy_simulado",
+          "status": "skipped"
+        },
+        {
+          "name": "smoke",
+          "status": "skipped"
+        }
+      ],
+      "status": "failed",
+      "deployment_exists": false
+    },
+    {
+      "id": "R01",
+      "commit": "f404c8cd35042ae132ac8e6115119543462dda2a",
+      "date": "2026-09-30",
+      "environment": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "steps": [
+        {
+          "name": "preparacao",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 1.4769
+        },
+        {
+          "name": "testes",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.151
+        },
+        {
+          "name": "build",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.2186
+        },
+        {
+          "name": "deploy_simulado",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.1522
+        },
+        {
+          "name": "smoke",
+          "status": "passed",
+          "exit_code": 0,
+          "seconds": 0.2039
+        }
+      ],
+      "status": "passed",
+      "deployment_exists": true,
+      "artifact_sha256": "ad950644e42927a8ceeda4087f4f415475f5718662713313a430a51d3e4cf39e"
+    }
+  ],
+  "manual_reference": [
+    {
+      "name": "preparacao",
+      "exit_code": 0
+    },
+    {
+      "name": "testes",
+      "exit_code": 0
+    },
+    {
+      "name": "build",
+      "exit_code": 0
+    },
+    {
+      "name": "deploy_simulado",
+      "exit_code": 0
+    },
+    {
+      "name": "smoke",
+      "exit_code": 0
+    }
+  ],
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_date": "2026-09-30"
+}

@@ -1,0 +1,38 @@
+test_arredondamento (test_app.TestTotal.test_arredondamento) ... FAIL
+test_multiplicacao (test_app.TestTotal.test_multiplicacao) ... FAIL
+test_preco_negativo (test_app.TestTotal.test_preco_negativo) ... ok
+test_quantidade_fracionaria (test_app.TestTotal.test_quantidade_fracionaria) ... ok
+test_quantidade_zero (test_app.TestTotal.test_quantidade_zero) ... ok
+test_zero (test_app.TestTotal.test_zero) ... FAIL
+
+======================================================================
+FAIL: test_arredondamento (test_app.TestTotal.test_arredondamento)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_app.py", line 8, in test_arredondamento
+    def test_arredondamento(self): self.assertEqual(total("1.005", 1), Decimal("1.01"))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('2.01') != Decimal('1.01')
+
+======================================================================
+FAIL: test_multiplicacao (test_app.TestTotal.test_multiplicacao)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_app.py", line 6, in test_multiplicacao
+    def test_multiplicacao(self): self.assertEqual(total("10.00", 3), Decimal("30.00"))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('13.00') != Decimal('30.00')
+
+======================================================================
+FAIL: test_zero (test_app.TestTotal.test_zero)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_app.py", line 7, in test_zero
+    def test_zero(self): self.assertEqual(total(0, 2), Decimal("0.00"))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('2.00') != Decimal('0.00')
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=3)
